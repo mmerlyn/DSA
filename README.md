@@ -10,7 +10,6 @@ This repository contains my implementations and practice problems for **Data Str
 ------------------
 ✔ **Logic Building**
 ✔ **Array**  
-✔ **Logic Building**
 
 **Repository Structure**
 ------------------------

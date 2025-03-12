@@ -7,7 +7,7 @@ def secondLargest(arr):
     n = len(arr)
 
     if arr[n-2] != arr[n-1] and arr[n-2] < arr[n-1]:
-        return arr[n-1]
+        return arr[n-2]
     return -1
 
 arr = list(map(int, input("Enter the list elements: ").split()))

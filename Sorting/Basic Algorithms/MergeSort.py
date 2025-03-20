@@ -1,4 +1,5 @@
-'''Merge Sort - Merge sort is a popular sorting algorithm known for its efficiency and stability. It follows the divide-and-conquer approach to sort a given array of elements.
+'''Merge Sort - Merge sort is a popular sorting algorithm known for its efficiency and stability. 
+It follows the divide-and-conquer approach to sort a given array of elements.
 Divide:  Divide the list or array recursively into two halves until it can no more be divided. 
 Conquer:  Each subarray is sorted individually using the merge sort algorithm. 
 Merge:  The sorted subarrays are merged back together in sorted order. The process continues until all elements from both subarrays have been merged. 

@@ -21,3 +21,14 @@ def twoSum(arr, target):
 arr = list(map(int, input("Enter a: ").split()))
 target = int(input("Enter target sum: "))
 print(twoSum(arr, target)) 
+
+# Check if such pair exists
+
+def twoSum(arr, target):
+    s = set()
+    for num in arr:
+        complement = target - num
+        if complement in s:
+            return True
+        s.add(num)
+    return False

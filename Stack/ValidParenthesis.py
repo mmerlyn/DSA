@@ -3,11 +3,9 @@
 def validParenthesis(s):
     st = []
     for i in range(len(s)):
-        if s[i] == "(" or s[i] == "{" or s[i] == "[":
+        if s[i] == "(" or s[i] == "[" or s[i] == "{":
             st.append(s[i])
-        elif st and ((st[-1] == "(" and s[i] == ")") or
-                     (st[-1] == "[" and s[i] == "]") or
-                     (st[-1] == "{" and s[i] == "}")):
+        elif st and ((st[-1] == "(" and s[i] == ")") or (st[-1] == "[" and s[i] == "]") or (st[-1] == "{" and s[i] == "}")):
             st.pop()
         else:
             return False
@@ -15,3 +13,6 @@ def validParenthesis(s):
 
 str = input("Enter: ")
 print(validParenthesis(str))
+
+
+

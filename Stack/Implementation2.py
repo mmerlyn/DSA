@@ -1,13 +1,12 @@
-s = []
-s.append(10)
-s.append(20)
-s.append(30)
+# Dynamic Sized Array
 
-print(f"{s[-1]} popped from stack")
-s.pop()
+st = []
+st.append(10)
+st.append(20)
+st.append(30)
+st.append(40)
 
-print(f"Top element is: {s[-1]}")
-print("Elements present in stack: ")
+print(st[-1])
 
-while s:
-    print(s.pop())
+while st:
+    print(st.pop())

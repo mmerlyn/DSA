@@ -31,14 +31,18 @@ class Stack:
     # Is Empty?
     def is_empty(self):
         return self.top < 0
-    
+
 s = Stack(5)
 s.push(10)
 s.push(20)
 s.push(30)
-print(s.pop(), "popped from stack")
-print("Top element is: ", s.peek())
-print('Elements present in stack: ', end=" ")
+s.push(40)
+print(s.pop())
+print(s.peek())
+
 while not s.is_empty():
-    print(s.peek(), end= " ")
+    print(s.peek())
     s.pop()
+
+    
+        
